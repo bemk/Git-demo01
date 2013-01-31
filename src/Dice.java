@@ -38,4 +38,9 @@ public class Dice {
 	{
 		return d.nextInt(dice_max)+1;
 	}
+	
+	public void watMoetIkHiermee()
+	{	
+		System.out.println("Ik weet het niet");)
+	}
 }
