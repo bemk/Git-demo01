@@ -22,6 +22,7 @@ import java.util.Random;
 public class Dice {
 	int dice_max;
 	private Random d;
+	private int a;
 	
 	public Dice(int max)
 	{
@@ -31,7 +32,7 @@ public class Dice {
 	
 	public Dice()
 	{
-		this(6);
+		this(8);
 	}
 	
 	public int throwDice()
