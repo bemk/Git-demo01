@@ -1,6 +1,6 @@
 *.class
 *.bin
-*.swp
+*swp
 *~
 *tmp
 *.jar
