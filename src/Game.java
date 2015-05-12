@@ -23,6 +23,9 @@ import java.util.*;
 public class Game {
 	public static final int EXIT_SUCCESS =  0;
 	public static final int EXIT_ERROR   = -1;
+
+	public static final int EXIT_UNDEFINED = 1;
+
 	private ArrayList<Player> players;
 	int turns = 6;
 	
