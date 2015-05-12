@@ -44,6 +44,8 @@ public class Player {
 
 		System.out.println("Your name is" + this.name);
 		
+		System.out.println("Feature 1");
+		
 		System.out.printf("I can haz target?\n");
 		try {
 			this.goal = Integer.parseInt(in.readLine());
