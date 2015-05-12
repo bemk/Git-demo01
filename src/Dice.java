@@ -15,6 +15,8 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+ //mauauauauauauauauauaq
+ // ik f je code
 
 import java.util.Random;
 
@@ -38,5 +40,10 @@ public class Dice {
 	public int throwDice()
 	{
 		return d.nextInt(dice_max)+1;
+	}
+	
+	public void watMoetIkHiermee()
+	{	
+		System.out.println("Ik weet het niet");)
 	}
 }
